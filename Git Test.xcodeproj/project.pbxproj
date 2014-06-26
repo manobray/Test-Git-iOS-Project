@@ -21,6 +21,7 @@
 		CD030768195CAF5600F5B870 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD03074A195CAF5500F5B870 /* UIKit.framework */; };
 		CD030770195CAF5600F5B870 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD03076E195CAF5600F5B870 /* InfoPlist.strings */; };
 		CD030772195CAF5600F5B870 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD030771195CAF5600F5B870 /* Git_TestTests.m */; };
+		CD03077D195CB37E00F5B870 /* LRMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03077C195CB37E00F5B870 /* LRMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CD03076D195CAF5600F5B870 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		CD03076F195CAF5600F5B870 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD030771195CAF5600F5B870 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		CD03077B195CB37E00F5B870 /* LRMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMTest.h; sourceTree = "<group>"; };
+		CD03077C195CB37E00F5B870 /* LRMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				CD030755195CAF5500F5B870 /* LRMAppDelegate.h */,
 				CD030756195CAF5500F5B870 /* LRMAppDelegate.m */,
 				CD030758195CAF5600F5B870 /* Main.storyboard */,
+				CD03077B195CB37E00F5B870 /* LRMTest.h */,
+				CD03077C195CB37E00F5B870 /* LRMTest.m */,
 				CD03075B195CAF5600F5B870 /* LRMViewController.h */,
 				CD03075C195CAF5600F5B870 /* LRMViewController.m */,
 				CD03075E195CAF5600F5B870 /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				CD030757195CAF5500F5B870 /* LRMAppDelegate.m in Sources */,
 				CD030753195CAF5500F5B870 /* main.m in Sources */,
 				CD03075D195CAF5600F5B870 /* LRMViewController.m in Sources */,
+				CD03077D195CB37E00F5B870 /* LRMTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
